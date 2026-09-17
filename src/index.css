@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+:root {
+  --brand-primary: #0F172A;
+  --brand-secondary: #334155;
+  --brand-accent: #0D9488;
+  --brand-accent-hover: #0F766E;
+  --brand-bg: #F8FAFC;
+  --brand-text: #1E293B;
+  --spacing-unit: 24px;
+}
+
+.geometric-grid {
+  background-image: 
+    linear-gradient(rgba(15, 23, 42, 0.04) 1px, transparent 1px), 
+    linear-gradient(90deg, rgba(15, 23, 42, 0.04) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+.geometric-grid-dark {
+  background-image: 
+    linear-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px), 
+    linear-gradient(90deg, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+.clip-diagonal {
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+}
+
+.clip-diagonal-reverse {
+  clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+}
+
+/* Custom scrollbar for refined geometric look */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F1F5F9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #94A3B8;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0D9488;
+}
