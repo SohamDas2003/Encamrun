@@ -118,7 +118,7 @@ export const SITE_CONFIG = {
       timezone: "PST / EST / IST",
       responseTime: "Guaranteed reply within 2 business hours",
     },
-    address: "Krishna Nagar, Safdarjung Enclave, New Delhi – 110029",
+    address: "Indra Nagar, Hal, Lucknow – 226016, Uttar Pradesh, India",
     bookingCalendarUrl: "https://calendly.com",
   },
 
