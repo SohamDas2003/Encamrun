@@ -146,13 +146,13 @@ export const Footer: React.FC = () => {
               </div>
 
               {/* Address */}
-              <div className="flex items-start space-x-2.5">
+              {/* <div className="flex items-start space-x-2.5">
                 <MapPin className="w-4 h-4 text-teal-400 shrink-0 mt-0.5" />
                 <div>
                   <span className="text-slate-500 uppercase tracking-wider text-[10px] font-bold block">Office Address:</span>
                   <span className="text-slate-300">{SITE_CONFIG.contact.address}</span>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
 
